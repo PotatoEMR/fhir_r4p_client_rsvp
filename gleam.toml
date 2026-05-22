@@ -6,7 +6,7 @@ licences = ["MIT"]
 
 [dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"
-fhir_r4p = { git = "https://github.com/PotatoEMR/fhir_r4p", ref = "8e1a07bc565bddf5fdd546910b58464031fa2575" }
+fhir_r4p = { git = "https://github.com/PotatoEMR/fhir_r4p", ref = "ea49222752613c8d8950e6265bd427429200229f" }
 gleam_http = ">= 4.3.0 and < 5.0.0"
 gleam_json = ">= 3.1.0 and < 4.0.0"
 lustre = ">= 5.0.0 and < 6.0.0"
