@@ -1,16 +1,16 @@
 name = "fhir_r4p_client_rsvp"
-version = "0.7.0"
+version = "0.8.0"
 
 description = "r4 primitive extensions rsvp client layer - see https://hexdocs.pm/fhir/ "
 licences = ["MIT"]
 
 [dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"
-fhir_r4p = { git = "https://github.com/PotatoEMR/fhir_r4p", ref = "ea49222752613c8d8950e6265bd427429200229f" }
+fhir_r4p = { git = "https://github.com/PotatoEMR/fhir_r4p", ref = "2555364fd0b9fdac8ea729fd859eeb0e40e65b3d" }
 gleam_http = ">= 4.3.0 and < 5.0.0"
 gleam_json = ">= 3.1.0 and < 4.0.0"
 lustre = ">= 5.0.0 and < 6.0.0"
-rsvp = ">= 1.0.0 and < 2.0.0"
+rsvp = ">= 2.0.0 and < 3.0.0"
 
 [dev_dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
